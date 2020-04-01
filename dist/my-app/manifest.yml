@@ -1,0 +1,9 @@
+---
+applications:
+- name: myapp
+  memory: 512M
+  disk_quota: 512M
+  instances: 1
+  random-route: true
+  buildpacks: 
+  - staticfile_buildpack
